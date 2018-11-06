@@ -79,6 +79,7 @@ try:
             include_webui=False,
             redirect_worker_output=True,
             use_raylet=True,
+            object_store_memory=2*1000**3,
         )
 except AssertionError:
     pass
